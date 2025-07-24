@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    text-align: center;
+    font-size: 20px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+button {
+    font-size: 20px;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+
+.thick-right {
+    border-right: 3px solid black;
+}
+
+.thick-bottom {
+    border-bottom: 3px solid black;
+}
+
+ul {
+    max-width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    padding: 2px;
+}
+
+p {
+    display: none;
+    padding: 2px;
+}
+
+#gridValid {
+    background-color: greenyellow;
+}
+
+#gridInvalid {
+    background-color: crimson;
+    color: white;
+}

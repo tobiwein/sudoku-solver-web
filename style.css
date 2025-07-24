@@ -15,23 +15,3 @@ button {
     font-size: 20px;
     padding: 5px;
 }
-
-table {
-    border-collapse: collapse;
-}
-
-td {
-    border: 1px solid black;
-    text-align: center;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-}
-
-.thick-right {
-    border-right: 3px solid black;
-}
-
-.thick-bottom {
-    border-bottom: 3px solid black;
-}
