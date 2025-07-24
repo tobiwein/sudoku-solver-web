@@ -97,6 +97,11 @@ function solveGrid() {
     checkButton.setAttribute('disabled', true);
     const solveButton = document.getElementById('solve-button');
     solveButton.setAttribute('disabled', true);
+    cells.forEach(row => {
+        row.forEach(cell => {
+            cell.setAttribute('readonly', true);
+        });
+    });
 
     solve(cells);
 }
