@@ -15,12 +15,18 @@
         <table id="sudoku-grid"></table>
 
         <div class="buttons">
-            <button onclick="clearGrid()">Clear</button>
-            <button>Check</button>
-            <button disabled>Solve</button>
+            <button id="clear-button" onclick="clearGrid()">
+                Clear
+            </button>
+            <button id="check-button" onclick="checkGrid()">
+                Check
+            </button>
+            <button id="solve-button" onclick="solveGrid()" disabled>
+                Solve
+            </button>
         </div>
 
-        <script type="module" src="sudoku-solver.js" defer></script>
+        <script src="sudoku-solver.js" defer></script>
     </body>
 
 </html>
